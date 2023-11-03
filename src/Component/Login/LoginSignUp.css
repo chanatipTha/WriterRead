@@ -1,0 +1,198 @@
+.container {
+    display : flex ;
+    flex-direction : column ;
+    flex-wrap : wrap ;
+    margin : auto ;
+    margin-top : 60px ;
+    background: #fff;
+    padding-bottom: 30px ;
+    width: 1000px;
+    /* height : 700px ; */
+    border-radius: 40px;
+}
+
+.header {
+    display: flex ;
+    flex-direction : column ;
+    align-items: center ;
+    gap : 9px ;
+    width: 100% ;
+    margin-top : 40px ;
+}
+.text {
+    color: blueviolet ;
+    font-size : 48px ;
+    font-weight: 700;
+    margin-bottom: 0px ;
+}
+
+.underline {
+    width : 60px ;
+    height : 6px ;
+    background : blueviolet;
+    border-radius : 9px ;
+    margin-left : 4pc ;
+    margin-top: 0px ;
+}
+
+.underline-Sign-Up {
+    width : 70px ;
+    height : 6px ;
+    background : blueviolet;
+    border-radius : 9px ;
+    margin-right : 7pc ;
+    margin-top: 10px ;
+
+}
+
+.inputs {
+    margin-top : 10px ;
+    display : flex ;
+    flex-direction : column ;
+    gap : 8px ;
+}
+
+.input {
+    display: flex ;
+    align-items: center ;
+    margin : auto ;
+    width : 480px ;
+    height : 80px  ;
+    margin-top : 10px ;
+    margin-bottom : 10px ;
+    background : #d1d1d1 ;
+    border-radius: 20px ;
+}
+
+.input input {
+    height : 50px ;
+    width: 400px ;
+    border : none ;
+    outline : none ;
+    background: transparent;
+    margin : 0px 0px ;
+    font-size: 15px ;
+    font-weight: bold ;
+}
+
+.forgot-password {
+    display: flex ;
+    justify-content :  space-between ;
+    font-size: 18px ;
+    margin :  20px 17pc 20px ;
+    font-weight: bold ;
+    text-decoration: none ;
+    color : blueviolet ;
+}
+
+.forgot-password  {
+    text-decoration: none ;
+    color : blueviolet ;
+    text-decoration: underline ;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline ;
+}
+
+.submit-container {
+    display : flex ;
+    gap : 30px ;
+    margin: 20px auto ;
+}
+
+.gray {
+    background : #d1d1d1 ;
+    color :#676767 ;
+}
+
+.Login-box {
+    display: flex ;
+    margin-left : 17pc ;
+    font-size : 15px ;
+    font-weight : bold ;
+}
+
+.text-login {
+    margin-left: 10px;
+}
+
+.submit-container {
+    display : flex ;
+    justify-content: center ;
+    margin-top: 5px;
+}
+
+.button {
+    border-radius: 15px;
+    background-color: blueviolet;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size:20px;
+    padding: 15px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    /* margin-left: 25pc; */
+  }
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    display : flex ;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.button-login {
+    display: inline-block;
+    padding: 12px 22px;
+    font-size: 22px;
+    font-weight: bold ;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px violet ;
+}
+  
+.button-login:hover {background-color: #330757}
+  
+.button-login:active {
+    background-color: #330757;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.Sign-box {
+    display: flex ;
+    margin-left : 17pc ;
+    font-size : 15px ;
+    font-weight : bold ;
+}
+
+.text-SignUp {
+    margin-left: 10px;
+}

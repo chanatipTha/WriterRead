@@ -1,0 +1,88 @@
+.container2 {
+    display : flex ;
+    flex-direction : column ;
+    flex-wrap : wrap ;
+    margin : auto ;
+    margin-top : 200px ;
+    background: #fff;
+    padding-bottom: 30px ;
+    width: 1000px;
+    border-radius: 40px;
+}
+.header2 {
+    display: flex ;
+    flex-direction : column ;
+    align-items: center ;
+    gap : 9px ;
+    width: 100% ;
+    margin-top : 40px ;
+}
+.text2 {
+    color: blueviolet ;
+    font-size : 48px ;
+    font-weight: 700;
+    margin-top: 20px ;
+    display : flex ;
+    margin-right: 30pc ; 
+}
+
+.underline2 {
+    width : 830px ;
+    height : 6px ;
+    background : blueviolet;
+    border-radius : 9px ;
+    margin-top: 0px ;
+    margin-bottom: 10px ;
+}
+
+.inputs2 {
+    margin-top : 10px ;
+    display : flex ;
+    flex-direction : column ;
+    gap : 25px ;
+}
+
+.input {
+    display: flex ;
+    align-items: center ;
+    margin : auto ;
+    width : 480px ;
+    height : 80px  ;
+    margin-top : 10px ;
+    margin-bottom : 10px ;
+    background : #d1d1d1 ;
+    border-radius: 20px ;
+}
+
+.input input {
+    height : 50px ;
+    width: 400px ;
+    border : none ;
+    outline : none ;
+    background: transparent;
+    margin : 0px 0px ;
+    font-size: 15px ;
+    font-weight: bold ;
+}
+
+
+.submit-container2 {
+    display : flex ;
+    gap : 30px ;
+    margin: 20px auto ;
+}
+
+.submit2 {
+    display: flex ;
+    justify-content: center ;
+    align-items: center;
+    font-size: 19px ;
+    width :210px ;
+    height : 60px ;
+    color : #fff ;
+    background  : blueviolet ;
+    border-radius : 50px ;
+    font-size : 19px ;
+    font-weight : bold ;
+    cursor:  pointer ;
+}
